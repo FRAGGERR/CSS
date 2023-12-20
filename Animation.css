@@ -1,0 +1,53 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    border: 2px solid black;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 55px;
+    left: 55px;
+    /* animation-name: coloranimation; */
+    animation-name: usingpercentage;
+    animation-duration:5s;
+    /* animation-timing-function: ease-in; */
+    animation-iteration-count: infinite;
+    /* animation-direction: alternate; */
+    animation-delay: 0ms;
+ 
+}
+
+/* 
+@keyframes coloranimation {
+        from{
+            left: 0px;
+            background-color: black;
+    
+        }
+        to{
+            left: 200px;
+            background-color: red;
+        }   
+    } */
+
+
+
+
+@keyframes usingpercentage {
+
+    0%{
+        left : 0px;
+        background-color: blue;
+    }
+
+    50%{
+        background-color: green;
+    }
+
+    100%{
+        left : 450px;
+        background-color: red;
+    }
+    
+}

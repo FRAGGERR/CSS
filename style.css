@@ -1,0 +1,51 @@
+h1{
+    color:  rgb(246, 197, 53);
+    text-decoration: underline;
+    height: 100px;
+}
+.last-heading{
+    color: hotpink;
+}
+p{
+    color: chartreuse;
+}
+button{
+    color: magenta;
+    background-color: black;
+}
+body{
+    background-color: rgb(242, 48, 10);
+}
+#para{
+    text-align: center;
+    color: rgb(246, 197, 53);
+}
+a{
+    text-decoration: wavy;
+}
+#a_tag{
+    text-decoration: wavy;
+}
+#heading_1{
+    font-weight: normal;
+}
+#heading_2{
+    font-weight: lighter;
+}
+#heading_3{
+    font-weight: 900;
+    /* we can give any number between 100to900 */
+}
+#para{
+    font-family: cursive;
+}
+
+#one   {
+    font-size: 25px;
+}
+#two{
+    font-size: 100px;
+}
+#three{
+    font-size: 50px;
+}

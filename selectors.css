@@ -1,0 +1,49 @@
+/*
+Selecotors are helps in select the tag and styling the particular tags
+Ex. h1{
+        ...
+    } 
+*/
+/*
+
+There are majorly 4 Types of selector in CSS
+1. Universal Selectors 
+this selector helps in selecting the whole html page.
+how to use it = */
+
+*{
+    color: chartreuse;
+}
+
+/*
+2. Element selectors
+this are also a type of selectors in this we are going to select the particular elements
+how to use it */
+
+h1{
+    color: black;
+}
+
+/*
+3. Id selectors
+we can create an id of the particular tag and use that id for styling porpose
+how to use it = */
+
+#heading_1{
+    color: chocolate;
+}
+#heading_2{
+    color: blanchedalmond;
+}
+#heading_3{
+    color: green;
+}
+
+/*
+4. Class Selector
+If we want to give same styling to multiple tags then we need to use this.
+how to use it = */
+
+.myclass{
+    color: darkred;
+}
